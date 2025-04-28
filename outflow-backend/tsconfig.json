@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./dist"  // This will store the compiled JS files
+    },
+    "include": ["src/**/*.ts"],  // Ensures all .ts files under src are included
+    "exclude": ["node_modules"]  // Exclude node_modules
+  }
+  
